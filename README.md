@@ -22,9 +22,6 @@ docker run -it -p 8080:8080 poridhi/codeserver-node:v1.1
 
 
 ### 3. Build a docker image of the reverse-proxy-server
-
-Path: r-proxy-np>
-
 ```bash
 docker build -t r-proxy:v1 .
 ```
